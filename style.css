@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/736x/99/db/91/99db9174fe44f969e13325da5c40b179.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-image: url(https://i.pinimg.com/1200x/d3/5e/f0/d35ef0d5b942b3f5d6e73fe768dee047.jpg);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+h1{
+  padding-right: 800px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.login-btn:hover{
+  background-color: white;
+  color: purple;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+
+.hero-text {
+  max-width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.order-btn {
+  background: purple;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.order-btn:hover{
+  background-color: #ffffff;
+  color: purple;
+}
+
+.hero-img{
+  width: 600px;
+  height: 400px;
+  background-color: none;
+  position:relative;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0 10px purple;
+  transition: 0.5s;
+}
+
+.hero-img:hover{
+  box-shadow: 0 0 25px purple;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-image: url(https://i.pinimg.com/1200x/d3/5e/f0/d35ef0d5b942b3f5d6e73fe768dee047.jpg);
+  color: white;
+}
+
+.feature {
+  text-align: center;
+  max-width: 250px;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.dishes {
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row;
+  padding: 40px 50px;
+}
+
+.dishes h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  box-shadow: 0 0 25px #a600ff;
+  padding-bottom: 20px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container2{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container3{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container4{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container5{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container6{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-container7{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card {
+  background-image: url(https://i.pinimg.com/736x/47/9d/a2/479da2c5f1f92d37fe28c90bf27bfdb5.jpg);
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 10px #c800ff;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-image: url(https://i.pinimg.com/736x/47/9d/a2/479da2c5f1f92d37fe28c90bf27bfdb5.jpg);
+    cursor: pointer;
+}
+
+.kutty{
+  color: #d400ff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kutty2{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+}
+
+.contact-section {
+    background-image: url(https://i.pinimg.com/1200x/d3/5e/f0/d35ef0d5b942b3f5d6e73fe768dee047.jpg);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      font-size: 16px;
+      margin: 5px 0;
+      color: white;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: purple;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: black;
+      color: purple;
+    }
